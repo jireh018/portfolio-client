@@ -35,7 +35,7 @@ const Projects = () => {
             <div className=''>
                 <h1 className='font-semibold text-2xl md:text-3xl uppercase text-center'>Projects portfolio </h1>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-3 gap-10'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
                 {
                     projects.map(project => (
                         <div className='mx-auto mt-10 max-w-md overflow-auto shadow-md bg-slate-300 rounded-xl h-[450px]'>
