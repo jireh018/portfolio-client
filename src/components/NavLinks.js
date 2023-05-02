@@ -6,7 +6,7 @@ const NavLinks = ({ isSmallMenuOpen }) => {
     return (
         <ul className={
             isSmallMenuOpen ?
-                'md:flex md:items-center md:z-auto absolute w-full border-b-2 shadow-md left-0 md:w-auto md:py-0 py-3 md:pl-0 pl-3 top-[80px] transition-all ease-in duration-500'
+                'md:flex md:items-center md:z-auto absolute w-full border-b-2 shadow-md left-0 md:w-auto md:py-0 py-3 md:pl-0 pl-3  transition-all ease-in duration-500'
                 :
                 'md:flex md:items-center z-[-1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 opacity-0 md:opacity-100 top-[-400px] transition-all ease-in duration-500'}
         >
@@ -27,3 +27,4 @@ const NavLinks = ({ isSmallMenuOpen }) => {
 }
 
 export default NavLinks
+//top-[80px]
