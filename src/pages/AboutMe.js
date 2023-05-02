@@ -1,6 +1,6 @@
 import React from 'react'
 
-import porfilePhoto from '../assets/images/aboutMeProfile.jpeg'
+import porfilePhoto from '../assets/images/z235.jpg'
 import amazon from '../assets/images/amazon.png'
 import sony from '../assets/images/sony.png'
 import adidas from '../assets/images/addidas.png'
@@ -15,7 +15,7 @@ const AboutMe = () => {
         <div className=''>
             <div className='container m-auto mt-40'>
                 {/* mt-40 grid md:grid-cols-1 lg:grid-cols-2 */}
-                <div className='block lg:flex lg:gap-10 mt-10 lg:mt-20 md:grid-cols-1'>
+                <div className='items-center block lg:flex lg:gap-10 mt-10 lg:mt-20 md:grid-cols-1'>
                     <div className='w-full lg:w-1/4 mb-7 md:mb-0 md:grid-rows-1' >
                         <img src={porfilePhoto} alt="Profile" className='rounded-lg w-96' />
                     </div>
