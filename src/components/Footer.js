@@ -1,5 +1,6 @@
 import React from 'react'
-import { FaFacebookSquare, FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
+import { FaInstagramSquare, FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa'
 
 const Footer = () => {
     return (
@@ -10,10 +11,9 @@ const Footer = () => {
                 </h3>
             </div>
             <div className='flex gap-10'>
-                <FaFacebookSquare size={55} />
-                <FaGithubSquare size={55} />
-                <FaLinkedin size={55} />
-                <FaTwitterSquare size={55} />
+                <Link to='https://www.linkedin.com/in/jirehtutondele/'><FaLinkedin size={55} /></Link>
+                <Link to='https://github.com/jireh018'><FaGithubSquare size={55} /></Link>
+                <Link to='https://www.instagram.com/jirehtutondele'><FaInstagramSquare size={55} /></Link>
             </div>
             <div>
                 © 2023 Jireh Tuzolana Tutondele
