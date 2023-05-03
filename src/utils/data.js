@@ -1,11 +1,13 @@
 
+
+
 export const projects = [
     {
         title: "JOBIFY",
         subtitle: "MERN Stack(React JS and Node JS)",
         description:
             "a full stack application realized with Node js and React Js that can be used for jobs : adding, deleting, updating and posting jobs and also updating the user profile.",
-        image: '../assets/images/gradient-mountain-landscape.avif',
+        image: 0,
         link: "https://nodecourse-jobster-api.onrender.com/landing",
     },
     {
@@ -13,7 +15,7 @@ export const projects = [
         subtitle: "NODE JS, EXPRESS AnD MONGO DB",
         description:
             "A simple web api that helps the user to register and login and create Jobs and also modify them, delete them, post them and get them and use the LocalStorage to store the user info",
-        image: "./jobs-api.gif",
+        image: 1,
         link: "https://temp-jobs-api-t42r.onrender.com",
     },
     {
@@ -21,7 +23,7 @@ export const projects = [
         subtitle: "NODE JS, EXPRESS AnD MONGO DB",
         description:
             "a e-commerce web api that uses Authentication and maintain his session with cookies, the user then can operate CRUD operation on products, make an order and leave a rating and comment on the product.",
-        image: "./e-commerce.gif",
+        image: 2,
         link: "https://temp-e-commerce-api.onrender.com",
     },
     {
@@ -29,7 +31,7 @@ export const projects = [
         subtitle: "NODE JS, EXPRESS AnD MONGO DB",
         description:
             "a portfolio REST api that uses Authentication and maintain his session with cookies and contain all the info about the owner of the portfolio",
-        image: "./e-commerce.gif",
+        image: 3,
         link: "https://my-portfolio-jireh.onrender.com",
     },
     {
@@ -37,7 +39,7 @@ export const projects = [
         subtitle: "NEX JS AnD TAILWIND",
         description:
             "a portfolio REST api that uses Authentication and maintain his session with cookies and contain all the info about the owner of the portfolio",
-        image: "./e-commerce.gif",
+        image: 4,
         link: "https://jirehtutondele.netlify.app/",
     },
     {
@@ -45,7 +47,7 @@ export const projects = [
         subtitle: "React, React Hooks, Redux",
         description:
             "upcoming...",
-        image: "./project-4.gif",
+        image: 5,
         link: "#",
     },
 ];
