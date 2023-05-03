@@ -38,7 +38,7 @@ const Projects = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
                 {
                     projects.map(project => (
-                        <div className='mx-auto mt-10 max-w-md overflow-auto shadow-md bg-slate-300 rounded-xl h-[450px]'>
+                        <div className='mx-auto mt-10 max-w-md overflow-auto shadow-md bg-white rounded-xl h-[450px]'>
                             <img className="w-full h-4/5" src={cardImage} alt="Sunset in the mountains" />
                             <div className='text-center py-4 h-1/5'>
                                 <p className="text-gray-700 text-base">
