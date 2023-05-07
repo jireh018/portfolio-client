@@ -46,7 +46,7 @@ export const projects = [
         title: "Todo App",
         subtitle: "React, React Hooks, Redux",
         description:
-            "upcoming...",
+            "This app, todo-app, include the concept React hooks, axios for the API service to the rest-full api I created with Node Js and React router for the navigation and passing data. ",
         image: 5,
         link: "#",
     },

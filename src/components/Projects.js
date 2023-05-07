@@ -7,7 +7,7 @@ import jobify from '../assets/images/projects/jobster.gif'
 import jobs from '../assets/images/projects/jobs-api.gif'
 import ecommerce from '../assets/images/projects/e-commerce.gif'
 import portfoliov1 from '../assets/images/projects/portfoliov1.png'
-import todoApp from '../assets/images/projects/todo.png'
+import todoApp from '../assets/images/projects/todo-app.gif'
 
 let images = [
     jobify, jobs, ecommerce, portfoliov1, cardImage, todoApp
